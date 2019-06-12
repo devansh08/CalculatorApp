@@ -33,5 +33,5 @@ Run ```cd react-ui/calculator && npm start``` to start the React server at port 
 
 ## Screenshots
 
-Screenshot 1: Layout of the web application
-Screenshot 2: Sample output data from 4 devices on the same network
+ - Screenshot 1: Layout of the web application
+ - Screenshot 2: Sample output data from 4 devices on the same network
