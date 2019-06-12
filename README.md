@@ -24,4 +24,14 @@ Run ```python3 app.py``` from ```flask-server``` directory to start the Flask se
 ### React Server Setup
 Edit the ```react-ui/calculator/.env``` file and change the ```REACT_APP_SERVER_IP``` and ```REACT_APP_SERVER_PORT``` variables to the IP address or hostname and port respectively of the machine hosting the Flask server from the previous step.
 
-Run ```cd react-ui/calculator && npm start``` to start the React server at port 3000 by default.
+Run ```cd react-ui/calculator && npm start``` to start the React server at port 3000 by default. The web app will then be accessible on ```http://localhost:3000``` or with the IP address/hostname of the machine hosting React server.
+
+## Usage
+ - Enter the two operands in the input boxes ('Operand 1' and 'Operand 2').
+ - Then click one of the operator buttons ('+', '-', '*' or '/').
+ - Result of the calculation will be shown in the 'Result' box and appended to the 'Calculations' area. Calculations by other users will show up in this area as well with their IP addresses.
+
+## Screenshots
+
+Screenshot 1: Layout of the web application
+Screenshot 2: Sample output data from 4 devices on the same network
