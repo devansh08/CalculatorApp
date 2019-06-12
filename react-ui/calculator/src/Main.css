@@ -1,0 +1,19 @@
+#jumbo {
+    text-align: center;
+    font-size: 200%;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 10px 10px !important;
+    }
+}
+
+#operands, #operators, #results, #logs {
+    margin-bottom: 25px;
+}
+
+textarea {
+    resize: none !important;
+    overflow: hidden !important;
+}

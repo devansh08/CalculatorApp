@@ -1,0 +1,10 @@
+CREATE DATABASE Calculator_DB;
+USE Calculator_DB;
+
+CREATE TABLE calcs (
+		id INT NOT NULL AUTO_INCREMENT,
+		expr VARCHAR(255),
+		res FLOAT,
+		user VARCHAR(255),
+		PRIMARY KEY (id)
+);
