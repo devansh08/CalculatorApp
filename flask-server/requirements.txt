@@ -5,4 +5,4 @@ Flask_Bcrypt==0.7.1
 Flask_MySQL==1.4.0
 Flask_Cors==3.0.7
 Flask_SocketIO==4.1.0
-cryptography==2.6.1
+cryptography==3.2
